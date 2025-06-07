@@ -3,8 +3,6 @@ import scipy.stats
 import streamlit as st
 import time
 
-st.header('Lanzar una moneda')
-
 # estas son variables de estado que se conservan cuando Streamlin vuelve a ejecutar este script
 if 'experiment_no' not in st.session_state:
     st.session_state['experiment_no'] = 0
